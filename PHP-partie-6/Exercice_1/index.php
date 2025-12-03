@@ -17,7 +17,7 @@ if (isset($_GET['firstname']) && !empty(trim($_GET['firstname']))) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PHP partie 6 - Exercice 1</title>
 </head>
 
 <body>
