@@ -13,7 +13,7 @@ if (isset($_GET['firstname']) && !empty(trim($_GET['firstname']))) {
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">

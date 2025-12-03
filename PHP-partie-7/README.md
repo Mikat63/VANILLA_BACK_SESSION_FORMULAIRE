@@ -1,5 +1,6 @@
 # PHP - Les formulaires
 Vous devez agrémenter votre code avec de l'HTML 5 valide (DOCTYPE, ....)
+
 ## Exercice 1
 Créer un formulaire demandant **le nom** et **le prénom**. Ce formulaire doit rediriger vers la page **user.php** avec la méthode **GET**.
 

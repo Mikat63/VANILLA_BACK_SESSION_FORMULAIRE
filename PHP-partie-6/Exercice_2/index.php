@@ -9,7 +9,7 @@ if (isset($_GET['age']) && !empty(trim($_GET['age']))) {
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">

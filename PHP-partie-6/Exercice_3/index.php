@@ -16,7 +16,7 @@ if (isset($_GET['endDate']) && !empty(trim($_GET['endDate']))) {
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
