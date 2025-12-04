@@ -1,5 +1,10 @@
 <?php
-if (!empty($_POST['civilite']) && !empty($_POST['nom']) && !empty($_POST['prenom']) && ($_FILES['upload_file']['error'] === 0)) {
+if (
+    !empty($_POST['civilite'])
+    && !empty($_POST['nom'])
+    && !empty($_POST['prenom'])
+    && ($_FILES['upload_file']['error'] === 0)
+) {
     $civilite = strip_tags(htmlspecialchars($_POST['civilite']));
     $nom = strip_tags(htmlspecialchars($_POST['nom']));
     $prenom = strip_tags(htmlspecialchars($_POST['prenom']));
