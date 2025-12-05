@@ -1,0 +1,120 @@
+/* general elements */
+* {
+  margin: 0;
+}
+
+:root {
+  --text-color-white: white;
+  --text-color-black: black;
+  --background-color: linear-gradient(to left, #61a5c2, #2a6f97);
+  --text-size: 20px;
+}
+
+/* elements zone */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: var(--background-color);
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  background: var(--background-color);
+  height: 50px;
+}
+
+/* index.html elements */
+.main_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 50px;
+}
+
+.button_user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 40px;
+  background: var(--background-color);
+  color: var(--text-color-white);
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: var(--text-size);
+}
+
+/* user.php elements */
+.main_section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main_container_user-php {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.info_container {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  gap: 36px;
+  background: var(--background-color);
+  border: 2px solid #61a5c2;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.main_title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.info_user_container {
+  display: flex;
+  flex-direction: column;
+  font-size: var(--text-size);
+  line-height: 25px;
+}
+
+/* title elements */
+h1 {
+  color: var(--text-color-white);
+  font-style: normal;
+  padding: 20px;
+}
+
+h2 {
+  color: var(--text-color-black);
+}
+
+.main_user_title,
+p {
+  color: var(--text-color-white);
+}
+
+/* specific elements */
+span {
+  font-weight: bold;
+}
