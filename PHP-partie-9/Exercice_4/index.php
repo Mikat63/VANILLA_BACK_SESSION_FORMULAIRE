@@ -1,6 +1,6 @@
 <?php
 $timeStamp = time();
-$timeStampMkTime = mktime(0, 0, 15, 8, 2, 2016);
+$timeStampMkTime = mktime(15, 0, 0, 8, 2, 2016);
 ?>
 
 <!DOCTYPE html>

@@ -43,7 +43,7 @@ $annee = date('Y');
 <body>
 
     <header>
-        <h1>PHP partie 9 - Exercice 1</h1>
+        <h1>PHP partie 9 - Exercice 3</h1>
     </header>
 
     <main>
