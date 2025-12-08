@@ -1,6 +1,7 @@
 <?php
-$dateFebruary = mktime(0, 0, 0, 2, 1, 2016);
-$numberDaysFebruary = date("t", $dateFebruary);
+$formatter = new IntlDateFormatter('fr_FR', IntlDateFormatter::FULL, IntlDateFormatter::NONE);
+$dateInTwentyDays = new DateTime('-20 days');
+$convertInFrenchDate = $formatter->format($dateInTwentyDays);
 ?>
 
 <!DOCTYPE html>
@@ -21,7 +22,7 @@ $numberDaysFebruary = date("t", $dateFebruary);
 
     <main>
         <div class="date_container">
-            <?php echo "<p>Bonjour, le mois de février 2016 comportait $numberDaysFebruary jours.</p>"; ?>
+            <?php echo "<p>Bonjour, il y a 20 jours nous étions le $convertInFrenchDate.</p>"; ?>
         </div>
     </main>
 </body>
