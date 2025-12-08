@@ -26,7 +26,7 @@
                 </div>
                 <br>
                 <div>
-                    <button class="button_validate" type="submit">Valider</button>
+                    <button class="" type="submit">Valider</button>
                 </div>
             </form>
             <div>
